@@ -6,6 +6,7 @@
     /*    margin-left: -403px;
         margin-top: -280px;*/
 }
+
 .ds4 .triggers {
     width: 588px;
     height: 90px;
@@ -220,7 +221,7 @@ background-position: 0 -70px;
 }
 
 .ds4 .face {
-    background: url(padd.svg);
+    background: url(dpad.svg);
     position: absolute;
 }
 
