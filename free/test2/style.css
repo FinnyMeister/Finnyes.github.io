@@ -35,17 +35,3 @@
     position: absolute;
     opacity: 0;
 }
-
-.xbox .trigger {
-    width: 88px;
-    height: 121px;
-    background: url(trigger.svgz);
-    opacity: 0;
-}
-
-.xbox .bumper {
-    width: 170px;
-    height: 61px;
-    background: url(bumper.svgz);
-    opacity: 0;
-}
