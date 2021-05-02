@@ -17,7 +17,7 @@
 .ds4 .trigger {
     width: 99px;
     height: 100%;
-    background: url(triggers.png);
+    background: url(triggers.svg);
     opacity: 0;
 }
 
@@ -33,7 +33,7 @@
 .ds4 .bumper {
     width: 99px;
     height: 23px;
-    background: url(bumper.png) no-repeat;
+    background: url(bumper.svg) no-repeat;
     opacity: 0;
 }
 
@@ -84,66 +84,6 @@
     background: url(ps4-assets/meta.svgz) no-repeat center;
 }
 
-/*Not needed, but I like keeping them here for posterity*/
-/*.ds4 .quadrant{
-position: absolute;
-background: url(ps4-assets/player-n.svgz);
-height: 17px;
-width: 111px;
-top: 140px;
-left: 240px;
-}
-.ds4 .p0{
-background-position: 0 -6px;
-}
-.ds4 .p1{
-background-position: 0 -28px;
-}
-.ds4 .p2{
-background-position: 0 -49px;
-}
-.ds4 .p3{
-background-position: 0 -70px;
-}*/
-.ds4 .arrows {
-    position: absolute;
-    width: 352px;
-    height: 46px;
-    top: 142px;
-    left: 227px;
-}
-
-.ds4 .back, .ds4 .start {
-    background: url(start.png);
-    width: 28px;
-    height: 46px;
-    opacity: 0;
-}
-
-.ds4 .back.pressed, .ds4 .start.pressed {
-    /* background-position-y: -21px; */
-    /* margin-top: 2px; */
-    opacity: 1;
-}
-
-.ds4 .back {
-    float: left;
-    /* width: 28px; */
-}
-
-.ds4 .start {
-    float: right;
-    /* width: 28px; */
-    background-position: 28px 0;
-}
-
-.ds4 .abxy {
-    position: absolute;
-    width: 170px;
-    height: 171px;
-    top: 159px;
-    left: 567px;
-}
 
 .ds4 .button {
     position: absolute;
@@ -179,45 +119,11 @@ background-position: 0 -70px;
     left: 58px;
 }
 
-.ds4 .sticks {
-    position: absolute;
-    width: 361px;
-    height: 105px;
-    top: 308px;
-    left: 228px;
-}
-
 .ds4 .stick {
     position: absolute;
-    background: url(sticks.png);
+    background: url(sticks.svg);
     height: 94px;
     width: 94px;
-}
-
-.ds4 .stick.pressed.left {
-    background-position-x: -96px;
-}
-
-.ds4 .stick.pressed.right {
-    background-position-x: -192px;
-}
-
-.ds4 .stick.left {
-    top: 0;
-    left: 0;
-}
-
-.ds4 .stick.right {
-    top: calc(100% - 105px);
-    left: calc(100% - 105px);
-}
-
-.ds4 .dpad {
-    position: absolute;
-    width: 125px;
-    height: 126px;
-    top: 181px;
-    left: 92px;
 }
 
 .ds4 .face {
