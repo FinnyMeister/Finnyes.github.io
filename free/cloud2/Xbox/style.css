@@ -35,13 +35,6 @@
     background: url(face.svg);
 }
 
-.ds4 .stick {
-    position: absolute;
-    background: url(sticks.svg);
-    height: 94px;
-    width: 94px;
-}
-
 .ds4 .face {
     background: url(dpad.svg);
     position: absolute;
