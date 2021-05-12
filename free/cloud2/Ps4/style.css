@@ -42,6 +42,14 @@
     background: url(face.svg);
 }
 
+.ds4 .abxy {
+    position: absolute;
+    width: 170px;
+    height: 171px;
+    top: 159px;
+    left: 567px;
+}
+
 .ds4 .a {
     background-position: 0 0;
     bottom: 0;
