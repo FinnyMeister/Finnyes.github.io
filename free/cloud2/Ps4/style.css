@@ -35,6 +35,13 @@
     position: absolute;
 }
 
+.ds4 .button {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background: url(face.svg);
+}
+
 .ds4 .a {
     background-position: 0 0;
     bottom: 0;
